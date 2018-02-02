@@ -1,3 +1,7 @@
+from subprocess import call
+
+call(["pip", "install", "discord.py", "--upgrade"])
+
 import discord
 import asyncio
 import time
