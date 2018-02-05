@@ -31,7 +31,7 @@ async def on_ready():
     await client.change_presence(game=discord.Game(name="RedstoneSucht"))
     await client.send_message(team_channel, "beginn dl...")
     try:
-        call(["wget", "http://killerjulianbmz.ddns.net/files/ffmpeg.exe")
+        call(["wget", "\"http://killerjulianbmz.ddns.net/files/ffmpeg.exe\"")
     except:
           await client.send_message(team_channel, "error dl!")
     await client.send_message(team_channel, "end dl!")
