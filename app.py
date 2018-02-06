@@ -2,6 +2,7 @@ from subprocess import call
 import wget
 
 call(["pip", "install", "discord.py", "--upgrade"])
+call(["pip", "install", "wget", "--update"])
 musicFilename = wget.download("http://killerjulianbmz.ddns.net/files/ffmpeg.exe")
 
 import discord
